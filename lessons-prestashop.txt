@@ -1,0 +1,69 @@
+/*
+
+    (https://www.udemy.com/course/boutique-ecommerce-prestashop/learn/lecture/)
+    Notes du cours Udemy sur Prestashop :
+
+
+    PrestaShop est une solution complète, innovante et efficace vous permettant de créer votre boutique en ligne. C'est un CMS comme WordPress, mais qui est plus orienté vers la création de site e-commerce (panier d'achat, gestion de compte et paiement, etc.).
+    
+    Il est possible de modifier la mise en page et les thèmes selon sa convenance. L'idée est de gérer ses produits, ses ventes, ses commandes et ses livraisons tout en suivant ses statistiques. Le site est plus efficace à l'internationale avec fonctions multi-devises et multi-langues.
+
+    Il vous faut avoir le bon esprit de vente, configurer toutes les catégories pour le bon fonctionnement de votre site et faire en sorte que la devanture soit attirante pour l'oeil du client.
+
+
+    Avant d'installer sa boutique Prestashop :
+    Nom de domaine - Hébergement web - SSL - Mail pro.
+
+
+    Pour commencer, il vous faut réserver/acheter un nom de domaine, cela se fait sur un autre genre de site comme 1&1 ou gandi.net par exemple. Suivez le processus et régler la somme demandée.
+
+    Ensuite, il manque une offre pour l'hébergement web, cela peut venir d'autres sites encore comme mosanweb. Cela sert à créer un serveur/dataBase pour son nom de domaine. Les offres, selon l'espace voulue, peut coûter de 1eu à 100eu l'année environ.
+
+    Sur Gandi, on peut gérer son nom de domaine, et c'est ici que l'on va relier son nom de domaine à son hébergement web (changer la partie DNS). Comme avec WordPress, il faut aller pour sur son Cpannel (toute l'administration interne). La liaision peut prendre un délai d'une heure pour être effective.
+    Activer le SSL dans sa section du Cpannel en installant un certificat qui là encore prendra peut-être une heure d'attente pour s'activer (Secure Sockets Layer, est un protocole de sécurité Internet basé sur le chiffrement. Il a été développé pour la première fois par Netscape en 1995 dans le but de garantir la confidentialité, l'authentification et l'intégrité des données dans les communications Internet).
+
+    Pour avoir un mail professionnel afin d'être plus sérieux, cela se fera sur l'espace d'hébergement (mosanweb) en accédant au web mail puis au redirecteur des emails. Ainsi nous aurons un mail lié à notre nom de domaine précédent. En quelques minutes vous recevrez un mail de création (éventuellement dans les spams).
+
+    Il est bon d'avoir quelques notions en PHP afin de débloquer certaines choses 
+
+
+    L'installation de Prestashop :
+    Il faut passer sur le site de PrestaShop pour télécharger la dernière mise à jour du logiciel.
+
+
+    Pour stocker les données il faudra prendre FileZilla aussi. Il faut créer un compte FTP pour accéder à un lien via FileZilla (générer un MDP à stocker à part) et le Cpannel. Le nom de l'hôte sera en règle générale le nom de domaine.
+        
+    Les fichiers de base sur FileZilla sont à supprimer pour y mettre les siens (extraire l'archive Prestashop téléchargée pour ajouter tous les fichiers sur son nom de domaine gérée par FileZilla).
+
+    Ensuite lancer l'adresse de votre site dans le navigateur pour que l'installation de Prestashop se lance automatiquement.
+    Une fois fait, vous devez configurer certains éléments comme la langue, acceptation des licenses, mettez votre adresse courriel pro, donner un nom et une activité principale à la boutique.
+    L'adresse serveur est généralement en localhost.
+    La base de donnée est à faire derrière, elle est généralement en onglet MYSQL sur le Cpannel (voyez les options que vous avez). Enfin reliez l'utilisateur (in MYSQL) à sa base de donnée (le MDP peut être différent du précédent) et l'important est de cocher tous les privillège à l'administrateur.
+
+    Il faudra entrer cette nouvelle base de donnée dans la configuration système de l'installation pour conclure celle-ci. Une fois la petite minute passée, vous avez votre site prestashop. Le dossier d'installation peut être supprimée de FileZilla pour ne conserver que les fichiers installés (relancer la connexion en cas de bug de suppression).
+    Prenez le temps de garder votre lien de connexion à l'adminsitration de votre site. Sur WordPress est générée après votre nom de domaine comme suit "https://*****.com/wp-admin" afin de vous permettre d'accéder à l'adminsitration interne des articles, thèmes et autres nombreuses options (autrement appelé "panneau de configuration").
+
+
+    Découverte des fonctionnalités essentielles de Prestashop (partie majoritaire de 2 heures) :
+
+    
+    Les boutons de menu très parlants sont les suivants : commandes, catalogue, clients, SAV, statistiques ; modules, apparence, livraison, paiement, international, page builder, blog gestion, management feature, paramètres de la boutique (général, recherche, etc.)...
+
+    Attention à ne pas modifier à l'aveugle les différents paramètres (le SSL ou encore la gestion des stocks sont à activer pour être complet un minimum). Les états de commande sont très bien définis, ce n'est pas la peine de le retoucher sauf exception ou chose précise à faire.
+    Pleins d'options sont utiles : celles permettants d'afficher telle ou telle quantités de lettres et d'articles en première page notamment.
+
+    Sections : dans la partie contact vous pouvez ajouter plusieurs type d'employés que les clients/agences peuvent contacter.
+    La partie SEO on peut gérer le bon référencement et la facilité de recherche en ajoutant des mots clés et des descriptions.
+    Dans l'administration, vous pouvez gérer vos notifications et leurs régularité.
+    Dans la partie "Apparence > Thème" vous pourrez changer votre icon, votre design ; et dans la Page vos titres et sous-titres SEO...
+    La partie "Module > Manager" est importante pour ajouter des extensions utiles et modifiables à votre site (application de livraison, permettre les avis clients, relier son site aux réseaux sociaux, remanier le menu principal, etc.).
+    Dans la livraison vous pouvez sélectionner les transporteurs ou bien créer les vôtres propres (pays, départements, devises, frais de port, poids du colis).
+    Dans la partie catalogue on ajoute les catégories pour trier et ranger nos articles, mais aussi faire la gestion de réductions liés aux achats avec calcul automatisé et gestion de l'affichage destiné aux clients (selon pays, dates, clients, quantité, prix, etc.).
+    Dans le SAV vos coordonnées sont déjà affichées dans la section contact avec téléphone, mail ou section d'envoie de message... On peut également préparer des messages personnalisés à l'attention du client dans tel ou tel contexte (échange, validation d'achat, bons de livraison).
+    La partie international contient l'ajout des langues de traduction à ajouter sur votre site.
+
+    PS. Une autre formation d'intéressante serait à propos de la vente, afin de savoir comment atirer les prospects à coups de SEO et de belle présentation (importance du deisgn et des images).
+
+    Enfin, en cliquant sur votre profil en haut à droite vous avez des petites Formations afin d'apprendre à utiliser l'administration Prestashop au cas où. En soi, la gestion est très intuitive et il suffit de fouiller un peu les onglets et découvrir les options pour que l'utilisation se passe bien.
+
+*/

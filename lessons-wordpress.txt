@@ -1,0 +1,51 @@
+/*
+    
+    WORDPRESS - LE COURS COMPLET - DÉBUTANT À INTERMÉDIAIRE - UDEMY
+
+Cours théorique et pratique de 6 heures en vidéo.
+
+Introduction :
+Wordpress est un CMS qui en français donne Système de Gestion de Contenu, il permet de bâtir un site rapidement et à moindre frais selon tous les thèmes et paramètres disponibles.
+Un développeur WordPress sait généralement faire du full-stack et aider ses clients à faire un site rapidement à l’aide de l’administration WP.
+Il y a deux parties, le site vitrine qui est la partie visible et la partie arrière qui est l’administration permettant de gérer le contenu.
+C’est le CMS le plus connu et complet, un quart des sites webs sont faits avec Wordpress est sont toujours sûrs en matière d’expérience utilisateur et de sécurité.
+Sans savoir coder, on peut bâtir et gérer un site, et sachant coder on comprend mieux l’envers du décors et être en mesure de l’améliorer.
+Avantages : rapidité, simplification, constructions en modules, design intuitif et plugin pour renforcer l’utilisation du site.
+
+2 WP :
+La plate-forme WP.com est la plus accessible, c'est celle où l’on peut tout faire de A à Z en étant hébergé : la liste des options et possibilités est limité, notamment en terme de thèmes gratuit ou payant (WP a le droit de mettre sa publicité), tandis qu’avec WP.org c’est à vous de chercher un site d’hébergement, on est moins accompagné, mais notre site nous appartient (sans pub et avec le plugin que l’on veut).
+
+Hébergeur + WP :
+Weendo ou 1&1 proposent des hébergement à commander 10eu ou 30eu par mois selon les formules d’abonnement. Une fois l’hébergement actif, vous recevrez les informations par mail pour pouvoir vous connecter (accéder à votre panneau, cPanel) après un certain délai (temps de propagation).
+Sur le panneau vous trouverez WordPress dans la liste et installez-le sur votre serveur web en ajoutant aussi un compte admin pour la gestion WP.
+Pour le faire manuellement, on a besoin de FileZilla (vous mettez votre site et IDS dedans pour vous brancher dessus) pour héberger tous les fichiers dont on a besoin avec le protocole FTTP.
+Softaculous dans votre cPanel vous a installé pleins de choses. Il est possible de supprimer la base de donnée PHP/MYSQL de base pour choisir autre chose (situation vierge pour y mettre WP en téléchargeant WP, on relie la configuration à sa nouvelle BDD).
+Par rapport à votre adresse de site, vous ajouter wp-admin dans la barre, et vous pourrez vous connecter dans la partie administration en tant qu’administrateur (ou contributeur) de votre site accessible à tous les clients. On ne travaille plus en ligne mais en local, donc les changements peuvent prendre un peu de temps à chaque enregistrement.
+
+Les bases WP :
+À la base c’est un système de blogue, le premier onglet se trouve être les posts/articles à cet effet. Une publication peut avoir jusqu’un titre, un sous-titre, du texte et une vignette image.
+Ces publications sont liées au CRUD, on peut les créer, lire, modifier et supprimer.
+Pour le SEO, il est important de mettre des catégories et des mots clés de courtes et longues traînes sans exagérer. Les catégories se repèrent dans la barre d’adresse, l’affichage est gérée dans le front-end () mais développer d’abord en back-end (serveur, base de données)
+Vous avez dans l’éditeur de texte plusieurs boutons pour donner du relief à vos articles avec le block quote (citation), les listes à puces, le style appliqué au texte. Il y a un onglet de jolie présentation, mais le fond est en HTML/CSS et l’onglet est disponible dans chaque article.
+Sur l’onglet révision, on peut revenir à une version antérieure enregistré de notre article.
+Élément externes : pour générer un cadre de post Twitter il suffit de cliquer sur les 3 petits points de celui-ci et sélectionner Embed Tweet qui offre un bout de code à ajouter dans l’onglet HTML de votre article.
+Menu : ici on crée les onglets (liens et sous-menus) de notre site, généralement on retrouve Accueil,   Présentation, Blogue, Contact… Ces menu forment des pages, ou encore la longue liste des articles se partagent en diverses pages.
+Extension Contact Form 7 vous ajoute un formulaire de contact basique et de qualité modifiable en HTML.
+En modifiant tout cela, en faisant des sous menu, en alimentant votre blogue, en ajoutant des images vous bâtirez un site utile, agréable et attirant l’oeil de l’utilisateur.
+L’onglet utilisateur possède un admin, vous, au minimum. S’il y a différents contributeurs, eux peuvent avoir des droits réduits pour ne pouvoir avoir accès qu’à la rédaction d’article par exemple.
+Les commentaires viennent avec le nom/pseudo du commentateur, le mail et parfois le site web (non obligatoire). Chaque article a les siens.
+
+Widgets, Thèmes, Plugins :
+Widgets, ce sont des blocs du site : recherche, articles et com récents, articles, méta, nuage d’étiquettes, etc. Vous les avez en barres latérales, placées dans des endroits spécifiques du site et selon ceux qui sont activés.
+Les thèmes sont divers, certains gratuits et d’autres payants (themeforest.net ; wordpress ; souvent plus poussé dynamique et optimisé), il faut les installer (après aperçu) et en activer qu’un seul à la fois. Ils changent tout le look de notre site, aucun objet ou texte. Quand un thème est choisi, vous pouvez le personnaliser : titres, couleurs, mise en page, bouton survolé, CSS personnalisé, etc.
+Plugins. Ce sont des extensions, vous avez le noyau dur de votre site, la base, et puis vous l’améliorer via ces outils. Vos envies seront réalisées tant que vous savez chercher les fonctionnalités dont vous avez besoin. L’admin WP peut voir la bibliothèque des extensions, certaines améliorent le SEO, le référencement de votre site, certains permettent d’éviter de recevoir des commentaires publicitaires.
+
+Plugin Yoast SEO :
+Tableau de bord. Yoast SEO permet de donner plus d’informations aux moteurs de recherche. 2) Titres et metas (description), balises HTML classiques aidant les moteurs de recherche. Ce plugin vous permet de modifier la création de barre d’adresse et d’être systématiquement indexé. On exporte les paramètres à la fin. Lire les commentaires d’analyse pour améliorer tout ce qui est défaillant voire manquant.
+On relie aussi nos articles à nos réseaux sociaux en ajoutant les détails nécessaires et permettant le partage rapide des visiteurs de votre site (plugin SumoMe)
+Plugin WooCommerce permet de transformer notre site WP en site eCommerce (panier d’achat, livraison, carte bancaire, etc) avec diverses options simples.
+
+Développeur WP :
+Avec des bases en développement on devient WP avec WordPress. Dans le thème personnalisé ou bien directement dans le fichier CSS avec FileZilla on peut travailler les classes CSS pour changer les paramètres de cette classe (changer sa place, sa couleur, son action dynamique…).
+
+*/

@@ -1,0 +1,72 @@
+/*
+
+    Notes de cours - UDEMY - Le Webdesign pour les débutants avec Figma (Enzo Ustariz) :
+    https://www.udemy.com/course/le-webdesign-pour-les-debutants-avec-figma/learn/lecture/23041964?start=15#content
+
+    Le Webdesign :
+    Création d'une interface utilisateur, bonnes alliances de couleurs, choix de typographie lisible (2, une originale pour les titres), disposition judicieuse des éléments (tout centré, rien qui ne déborde, sauf système destructuré), utilisation d'images et icones.
+
+    Le design est avant tout un problème à résoudre, il n'y a pas besoin d'être un génie ou un dessinateur pour y arriver - un designeur UI/UX parfois ne sait même pas dessiner avec un crayon !
+    Il faut déterminer débord quel serait le thème d'un site, le type de public visé et les actions demandées à ses utilisateurs.
+    
+    FIGMA :
+    Le logiciel FIGMA est le plus utilisé pour créer des schémas, des prototypes (visualiser des animations) et des maquettes de site (à coder ensuite).
+    Il peut être utilisé directement dans le navigateur où s'installer via la partie download.
+
+    Outils :
+    Vous trouverez les outils de travail en faisant un nouveau document (draft + > Figma).
+    Il y a le menu, le sélecteur, la frame (cadre), le paper, la plume (découper), le texte, la main de déplacement, la bulle (laisser un commentaire sur sa réalisation), etc.
+    Le travail peut être exporter dans tous les formats classiques et partager entre amis/clients (share). Il est possible de créer toutes sortes de formes avec rectangle, triangle, losange, etc.
+    Dans le menu de droite on peut modifier toutes les caractéristiques.
+
+    Photoshop comparé :
+    C'est un type de création d'image rappellant Photshop, en étant plus orienté, animations, webdesign et applications mobiles entre autres.
+    Il y a pareillement de nombreux raccourcis à connaître pour optimiser son travail. On retrouve par exemple la pipette, le remplissage de couleur, l'enregistrement de fichier de base et pour le web...
+    Seulement, il faut payer dans le mois plutôt que de l'avoir en un seul réglement.
+
+    Signification des couleurs :
+    Elles inspirent quelque chose selon les civilisations comme suit :
+    - Le rouge va évoquer amour et passion, violence et guerre, jeunesse, réduction, malus. En Chine, c'est plutôt synonyme de succès et de réussite.
+    - Le noir est lié à l'élégance et à la classe (costume et voiture), mais aussi à la mort, au mystère.
+    - Le blanc inspire propreté et pureté, docteurs/dentistes, paix, s'alllie avec toutes les couleurs, etc. En Asie le blanc représente la mort. Cela fait ressortir un produit.
+    - Le bleu est synonyme de calme, de sérénité, de cyber-sécurité en foncé, la tendresse en clair.
+    - Le vert se lie avec la croissance, la nature, le calme et la stabilité
+
+    
+    Couleurs assemblées :
+    Il existe différents sites comme Coolors https://coolors.co/ qui répertorie les couleurs qui vont bien ensemble (le bleu turquoi avec le rose, le vert avec un site pour le jardinage notamment). Le contraste a aussi son importance pour la lisibilité d'un texte ou d'une image (gris clair sur du blan) : cela peut être testé sur les "Colour Contrast Checker".
+    
+    Images en ligne :
+    unsplash.com est un site de lots d'images, gratuites et payantes, parfaites pour le web avec un choix systématique de résolution.
+    Évitez les choses trop utiliées de Google image en première page comme l'immense majorité des gens font.
+    Dans l'onglet image de FIGMA des outils servent à retoucher rapidement le contaste, l'opacité ou encore ajouter les changements dans un calque.
+
+    Police d'écriture :
+    Il suffit d'acquérir quelques rudiments pour bien faire. La police transmet une émotion aussi, la typographie classe fait sérieux, les comics font enfantins, certaines sont agréables à la lecture, le display sert à montrer ses titres en gros...
+    Le sérif a des empattements et le sans serif a des lettres droites et plus simples. Le premier aide à la lecture tandis que le second est simple et minimaliste.
+    Vous avez dafont, googlefont pour récupérer des polices gratuites et bien faites.
+
+    Système de grille :
+    Il y a une logique CSS avec ces logiciels de design, de mise en forme de notre document, même si cela ne va pas jusque le code en dur avec les flex-box évidemment.
+    Il s'agit de mutliplier les rectangles, créer tout type d'écran en structurant bien nos cadres, colonnes et lignes.
+    Vous avez à cet effet l'onglet "layout grid".
+
+    Système des calques :
+    Les éléments peuvent se mettre dans des containers. Un fond dekstop dans le quel il pourrait y avoir un titre avec un bandeau et un titre, et puis une autre frame (calque) avec une image et un texte par-dessus ! Les effets dans la barre latérale (de droite ici) aussi a ses calques suivant l'ajout des effets sur image. On peut gérer les box-shadows et les borders-radius d'un background avec les données x/y/radius entre autres choses.
+
+    Les composants :
+    Il est possible de s'en créer pour les réutiliser partout où on le veut par la suite. Cela peut être un bouton, une carte, une boîte à texte, un formulaire... Ainsi on duplique un même composant, pourquoi pas en retouchant sa couleur de fond au passage.
+
+    Interface utilisateur :
+    C'est là toute l'utilité de FIGMA par rapport aux autre logiciels de retouche image. Vous pouvez faire au format image un document qui sert de base pour les développeur front-end. Vous pourrez ainsi faire des maquettes PDF également à des fins de tests techniques.
+    Le drop shadow permet de créer un bouton soulignée par une ombre, et le iconify (plugin) dans File permet d'ajouter des icones classiques (cloche avec bell).
+
+    Touches de raccourcis :
+    Avec maj+clic on redimentionne une image en fit (garde ses dimensions).
+    Avec alt+clic on duplique un élément existant.
+
+    Extension :
+    Les ajouts dans le logiciel ou via le navigateur peut vous ajouter des manières de récupérer la couleur d'un site pour l'exemple.
+    Dans le menu fichier en haut à gauche vous avez aussi une section dédiée des plugins/modules.
+
+*/
